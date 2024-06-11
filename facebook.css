@@ -1,0 +1,34 @@
+*{
+    font-size: 20px;
+    font-family: inherit;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    
+}
+#abcd{ display: flex;
+}
+#ab{
+    
+    width: 25%;
+    background-color: #f0f2f5;
+    height: 30000px;
+}
+#ac{
+    width: 50%;
+    background-color: #e8ecf4;
+    height: 30000px;
+}
+#ad{
+    width: 15%;
+    background-color: #f0f2f5;
+    height: 30000px;
+}
+#zx{
+    display: flex;
+}
+#q{width: 33.33%;}
+#w{width: 33.33%;}
+#r{width: 33.33%;}

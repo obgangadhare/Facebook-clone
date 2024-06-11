@@ -1,0 +1,36 @@
+#abcd{
+    height: 1000px;
+    width: 100%;
+    
+    
+}
+#img{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+#txt{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: #1c1e21;
+    position: absolute;
+    top: 300px;
+    left: 130px;
+}
+#abcde{
+    text-align: center;
+    
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgba(6, 6, 6, 0.165);
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    background-color: white;
+}
+
+    
+
+a{
+    text-decoration: none;
+}

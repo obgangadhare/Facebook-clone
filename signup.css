@@ -1,0 +1,19 @@
+div{
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    right: 350px;
+ text-align: left;
+    font-size: 22px;
+}
+p{
+    font-size: 17px;
+}
+button{
+    position: absolute;
+    right: 330px;
+    background-color: #00a400;
+    font-size: 25px;
+    color: white;
+}
