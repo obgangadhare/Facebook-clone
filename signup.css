@@ -1,19 +1,223 @@
-div{
-    height: 700px;
-    width: 500px;
-    position: absolute;
-    top: 50px;
-    right: 350px;
- text-align: left;
-    font-size: 22px;
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, .8);
 }
-p{
-    font-size: 17px;
-}
-button{
+
+.signup{
+    height: 535px;
+    width: 432px;
     position: absolute;
-    right: 330px;
+    top: 100px;
+    left: 580px;
+    border-radius: 8px; 
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+
+
+}
+.head{
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    height: 82px;
+    width: 432px;
+    background-color: #ffffff;
+    padding: 10px 16px 10px 16px;
+}
+.h1{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+  color: #1c1e21;
+  line-height: 38px;
+  font-weight: 600;
+}
+.h2{
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+.form{
+    border-top: 1px solid #ccd0d5;
+
+}
+.fn{
+    width: 160px;
+    padding: 11px;
+    border: 0.8px solid#ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ccd0d55a ;
+    margin: 15px 10px 10px 25px;
+}
+.sur{
+    width: 160px;
+    padding: 11px;
+    border: 0.8px solid#ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ccd0d55a ;
+    margin: 15px 25px 10px 0px;
+}
+.email{
+    width: 360px;
+    padding: 11px;
+    border: 0.8px solid#ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ccd0d55a ;
+    margin: 2px 25px 10px 25px;
+}
+.pass{
+    width: 360px;
+    padding: 11px;
+    border: 0.8px solid#ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ccd0d55a ;
+    margin: 2px 25px 10px 25px;
+}
+.dob{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 25px;
+}
+#day{
+    width: 123px;
+    height: 40px;
+    padding: 11px;
+    border: 1px solid #ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ffffff ;
+    margin: 5px 2px 10px 25px;
+}
+#month{
+    width: 123px;
+    height: 40px;
+    padding: 11px;
+    border: 1px solid #ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ffffff;
+    margin: 5px 2px 10px 0px;
+
+}
+#year{
+    width: 123px;
+    height: 40px;
+    padding: 11px;
+    border: 1px solid #ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ffffff ;
+    margin: 5px 25px 10px 0px;
+}
+.female{
+    width: 100px;
+    height: 16px;
+    padding: 11px;
+    border: 1px solid #ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ffffff ;
+    margin: 5px 5px 10px 25px;
+    display: inline-block;
+}
+.female1{
+    margin-left: 30px;
+    
+}
+.male{
+    width: 100px;
+    height: 16px;
+    padding: 11px;
+    border: 1px solid #ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ffffff ;
+    margin: 5px 5px 10px 0px;
+    display: inline-block;
+}
+.male1{
+    margin-left: 50px;
+}
+.custom{
+    width: 100px;
+    height: 16px;
+    padding: 11px;
+    border: 1px solid #ccd0d5 ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    color: #1c1e21;
+    background-color:#ffffff ;
+   
+    display: inline-block;
+}
+.custom1{
+    margin-left: 30px;
+}
+.gender{
+    display: inline-block;
+}
+.btmtxt{
+    color: #777;
+    font-size: 11px;
+    margin: 2px 25px 2px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    position: absolute;
+    top: 482px;
+    right: 127px;
     background-color: #00a400;
-    font-size: 25px;
-    color: white;
+    font-size: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 36px;
+    width: 194px;
+border-radius: 6px;
+border: none;
+font-weight: 600;
+cursor: pointer;
+}
+.button:hover{
+    background-color: #419c4194;
 }

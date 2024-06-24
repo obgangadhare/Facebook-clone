@@ -1,36 +1,118 @@
-#abcd{
-    height: 1000px;
-    width: 100%;
-    
-    
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
 }
-#img{
+
+
+.img{
     position: absolute;
     top: 200px;
     left: 100px;
 }
-#txt{
+.txt{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 28px;
     color: #1c1e21;
     position: absolute;
     top: 300px;
     left: 130px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
 }
-#abcde{
-    text-align: center;
-    
-    height: 400px;
-    width: 400px;
-    border: 1px solid rgba(6, 6, 6, 0.165);
+.abcde{
     position: absolute;
     top: 150px;
     right: 200px;
-    background-color: white;
+    background-color: #ffffff;
+     height:  348px;
+    width:396px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    
+}
+.email{
+    height: 22px;
+    width: 330px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px ;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    background: #FFFFFF;
+    line-height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 15px 15px;
+    
 }
 
-    
+.pass{
+    height: 22px;
+    width: 330px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    background: #FFFFFF;
+    line-height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 15px 15px 15px;
 
-a{
+}
+.button-login{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 363.6px;
+    display: inline-block;
+    margin: 0 15px 15px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Forgotten{
+    color: #0866ff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    margin-left:140px ;
+    background-color: #fff;
+}
+.button-newacc{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #42b72a;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    width: 192px;
+    padding: 20px 0px 0px 20px;
+    margin: 30px 15px 0px 100px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.bottom-txt{
+    position: absolute;
+    top: 370px;
+    left: 50px;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
 }

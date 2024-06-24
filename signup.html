@@ -1,34 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup</title>
     <link rel="stylesheet" href="./signup.css">
 </head>
+
 <body>
-   <div >
-    <h1>Sign up</h1>
-    <p>It's quick and easy.</p>
-    <form action="./facebook.html" target="_blank" >
-        <label for="name" >Name</label>
-        <input type="text" id="name" placeholder="Enter your name">
-<br><br>
-        <label for="email number" >Email</label>
-        <input type="email" id="email" placeholder="Mobile number or Email">
-        <br><br>
-        <label for="Pass" > Create Password</label>
-        <input type="password" required id="pass" placeholder="New password">
-        <br><br>
-        <label for="dob" > Date of birth</label>
-        <input type="date"required id="dob">
-        <br><br>
-        <button>Sign up</button>
+    <div class="signup">
+        <div class="head">
+            <p class="h1">Sign up</p>
+            <p class="h2">It's quick and easy.</p>
+        </div>
+        <div class="form">
+            <form action="./facebook.html" >
 
-        
+                <input class="fn" type="text" required placeholder="First name">
+                <input class="sur" type="text" required placeholder="Surname">
+
+                <input class="email" type="email" required placeholder="Mobile number or Email address">
 
 
-    </form>
-</div>
+                <input class="pass" type="password" required placeholder="New password">
+                <p class="dob">Date of birth?</p>
+                <select required id="day">
+
+                    <option disabled selected value=""> </option>
+                    <option  value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="4">5</option>
+                    <option value="4">6</option>
+                    <option value="4">7</option>
+                    <option value="4">8</option>
+                    <option value="4">9</option>
+                    <option value="4">10</option>
+
+                </select>
+
+                <select required id="month">
+                    <option disabled selected value=""> </option>
+                    <option value="Jan">Jan </option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+
+
+                </select>
+                <select required id="year">
+                    <option disabled selected value=""></option>
+                    <option value="1998">1998 </option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+
+
+                </select>
+                <p class="dob">Gender?</p>
+
+                <div class="gender">
+                    <div  class="female">
+                        <label for="female">Female</label>
+                        <input required class="female1" type="radio" name="gender" id="female" value="Female">
+                    </div>
+
+                    <div class="male">
+                        <label for="male">Male</label>
+                        <input  class="male1" type="radio" name="gender" id="male" value="Male">
+                    </div>
+
+                    <div class="custom">
+                        <label for="custom">Custom</label>
+                        <input class="custom1" type="radio" name="gender" id="others" value="other">
+
+                    </div>
+                </div>
+                <p class="btmtxt">People who use our service may
+                    have uploaded your contact information to Facebook. Learn more.<br><br>
+                    By clicking Sign Up, you agree to our Terms, Privacy Policy
+                    and Cookies Policy. You may receive SMS notifications   
+                    from us and can opt out at any time.</p>
+
+
+
+                <button class="button">Sign up</button>
+            </form>
+        </div>
+
+    </div>
 </body>
+
 </html>
